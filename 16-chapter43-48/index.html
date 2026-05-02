@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chapter 43-48</title>
+</head>
+<body>
+    <h1>chapter 43-48</h1>
+    <h1>events</h1>
+    <a href="#" onclick="showAlert()">Click me</a>
+    <div class="images-onclicked">
+    <li>
+        <img onclick="alertuser()" src="images/img1.jfif" alt="">
+        <img onclick="alertuser()" src="images/img2.jfif" alt="">
+        <img onclick="alertuser()" src="images/img3.jfif" alt="">
+    </li>
+
+</div>
+    <div class="table">
+    <table  border="1" cellpadding="10" cellspacing="0">
+        <tr>
+            <th>no.</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Class</th>
+            <th>Action</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Ali</td>
+            <td>20</td>
+            <td>BSCS</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Ahsan</td>
+            <td>22</td>
+            <td>BSSE</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Ahmed</td>
+            <td>21</td>
+            <td>BSIT</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>amna</td>
+            <td>20</td>
+            <td>BSIT</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>aniq</td>
+            <td>22</td>
+            <td>BSSE</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>shoaib</td>
+            <td>23</td>
+            <td>BSIT</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>areeba</td>
+            <td>21</td>
+            <td>BSIT</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>kinza</td>
+            <td>20</td>
+            <td>BSIT</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>abid</td>
+            <td>22</td>
+            <td>BSSE</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>ahad</td>
+            <td>21</td>
+            <td>BSIT</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+    </table>
+</div>
+<div class="image" >
+       <img id="myImage" src="images/img1.jfif" width="300"
+onmouseover="changeImage()"
+onmouseout="originalImage()">
+</div>
+
+<div>
+<h2 >Counter: <span id="count">0</span></h2>
+
+<button  onclick="increase()">Increase</button>
+<button onclick="decrease()">Decrease</button>
+</div>
+</body>
+<script src="script.js"></script>
+</html>

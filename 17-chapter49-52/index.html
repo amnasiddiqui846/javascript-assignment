@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chapter 49-52</title>
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>chapter 49-52</h1>
+    <h1>events</h1>
+    <!-- Create a signup form and display form data in your web
+page on submission. -->
+    <section class="signup-section">
+<div class="signup-container">
+
+  <div class="signup-box">
+    <h2>signup</h2>
+    <p>hello user! create your account.</p>
+
+   <form onsubmit="showData(event)">
+
+  <div class="input-group">
+    <label>First Name</label>
+    <input type="text" id="first-name" placeholder="Enter your first name" required>
+  </div>
+
+  <div class="input-group">
+    <label>Last Name</label>
+    <input type="text" id="last-name" placeholder="Enter your last name" required>
+  </div>
+
+  <div class="input-group">
+    <label>Email</label>
+    <input type="email" id="email" placeholder="Enter your email" required>
+  </div>
+
+  <div class="input-group">
+    <label>Password</label>
+    <input type="password" id="password" placeholder="Enter your password" required>
+  </div>
+
+  <div class="input-group">
+    <label>Re-type Password</label>
+    <input type="password" id="re-password" placeholder="Re-type password" required>
+  </div>
+
+  <button type="submit" class="signup-btn">Signup</button>
+
+</form>
+
+<h3>Submitted Data:</h3>
+<p id="output"></p>
+  </div>
+  
+</section>
+    </body>
+<script src="script.js"></script>
+</html>
