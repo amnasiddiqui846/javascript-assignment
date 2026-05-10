@@ -1,3 +1,16 @@
-#moreText {
-    display: none;
-}
+   body{
+      font-family: Arial, sans-serif;
+      padding: 40px;
+    }
+
+    .more-text{
+      display: none;
+    }
+
+    button{
+      padding: 10px 20px;
+      background-color: #333;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
